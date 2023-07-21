@@ -12,7 +12,7 @@ main {
   width: 80vw;
   height: 40vw;
   border: 0.35vw double black;
-  margin: auto;
+  margin: 1vw auto 0 auto;
 }
 .container {
   height: 100%;
@@ -84,6 +84,21 @@ nav ul {
 nav ul li {
   display: inline;
 }
+nav ul li:hover {
+  font-weight: bold;
+  scale: 1.02;
+  text-shadow: 0 0 1.5vw rgba(255, 0, 0, 0.3);
+}
+nav ul li a:link,
+nav ul li a:visited,
+nav ul li a:active {
+  text-decoration: none;
+  color: initial;
+}
+nav ul li a:hover {
+  color: dodgerblue;
+}
+
 .gallery {
   margin-top: 2.75vw;
   display: flex;
@@ -92,6 +107,7 @@ nav ul li {
 }
 .gallery img {
   width: 33.3%;
+  /* height:? */
 }
 article p {
   letter-spacing: 0.07vw;
