@@ -98,17 +98,20 @@ nav ul li a:active {
 nav ul li a:hover {
   color: dodgerblue;
 }
-
 .gallery {
   margin-top: 2.75vw;
   display: flex;
   flex-direction: row;
   justify-content: stretch;
+  /* border: 2px solid deeppink; */
 }
 .gallery img {
   width: 33.3%;
   /* height:? */
 }
+/* article {
+  border: 3px solid darkred;
+} */
 article p {
   letter-spacing: 0.07vw;
   word-spacing: 0.2vw;
