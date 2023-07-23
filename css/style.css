@@ -1,6 +1,7 @@
 @font-face {
   font-family: "aster";
   src: url(../fonts/AsterRegular.otf);
+  font-display: swap;
 }
 * {
   box-sizing: border-box;
